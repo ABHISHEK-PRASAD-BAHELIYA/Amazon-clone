@@ -220,17 +220,17 @@ a {
 
 .album {
     width: 25%;
-    background-color: pink;
+    background-color: #000;
 }
 
 .player {
     width: 50%;
-    background-color: orange;
+    background-color: #000;
 }
 
 .controls {
     width: 25%;
-    background-color: green;
+    background-color: #000;
 }
 
 .player-controls {
@@ -247,4 +247,32 @@ a {
 
 .player-control-icon:hover {
     opacity: 1;
+}
+
+.player-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    background: #ddd;
+    border-bottom: 100px;
+    height: 0.2rem;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: #1bd760;
+    margin-top: -6px;
 }
