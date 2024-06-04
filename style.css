@@ -103,7 +103,7 @@ a {
 
 .box {
     background-color: #232323;
-    height: 9rem;
+    height: 11rem;
     border-radius: 0.75rem;
     margin: 0.75rem 0 1.75rem 0;
     padding: 0.75rem 1.25rem;
@@ -204,4 +204,26 @@ a {
     height: 50%;
     border-top: 1px solid white;
     opacity: 0.4;
+}
+
+.profile-img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.music-player {
+    display: flex;
+}
+
+.album {
+    width: 25%;
+}
+
+.player {
+    width: 50%;
+}
+
+.controls {
+    width: 25%;
 }
